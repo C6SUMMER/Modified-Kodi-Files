@@ -1,0 +1,20 @@
+<keymap>
+  <global>
+    <keyboard>
+      <left mod="ctrl">subtitledelayminus</left>
+      <right mod="ctrl">subtitledelayplus</right>
+      <left mod="ctrl,shift">audiodelayminus</left>
+      <right mod="ctrl,shift">audiodelayplus</right>
+      <one mod="ctrl,alt">ActivateWindow(music)</one>
+      <two mod="ctrl,alt">ActivateWindow(Videos,MovieTitles)</two>
+      <three mod="ctrl,alt">ActivateWindow(Videos,TvShowTitles)</three>
+      <four mod="ctrl,alt">ActivateWindow(tvchannels)</four>
+      <o mod="ctrl">ActivateWindow(subtitlesearch)</o>
+    </keyboard>
+  </global>
+  <FullscreenVideo>
+    <keyboard>
+      <u>ActivateWindow(SubtitleSearch)</u>
+    </keyboard>
+  </FullscreenVideo>
+</keymap>
