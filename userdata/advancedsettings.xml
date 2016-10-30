@@ -1,0 +1,19 @@
+<advancedsettings>
+<loglevel hide="true">-1</loglevel>
+	<video>
+		<timeseekforward>5</timeseekforward>
+		<timeseekbackward>-5</timeseekbackward>
+		<timeseekforwardbig>300</timeseekforwardbig>
+		<timeseekbackwardbig>-300</timeseekbackwardbig>
+		<subsdelayrange>240</subsdelayrange>
+	</video>
+	<network>
+		<cachemembuffersize>104857600</cachemembuffersize>
+		<readbufferfactor>10</readbufferfactor>
+	</network>
+	<videolibrary>
+		<cleanonupdate>true</cleanonupdate>
+	</videolibrary>
+	<playlistretries>9999</playlistretries>
+	<playlisttimeout>60</playlisttimeout>
+</advancedsettings>
