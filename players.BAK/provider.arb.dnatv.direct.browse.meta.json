@@ -1,0 +1,34 @@
+{
+ "name"         : "DNA TV (arb)",
+ "plugin"       : "plugin.video.dnatv",
+ "priority"     : 400,
+ "id"           : "provider.arb.dnatv.browse",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [],
+ "tvshows"      : [],
+ "live"         : [
+  [
+   {
+    "link": "plugin://plugin.video.dnatv",
+    "steps": [
+	".*live tv.*",
+	".*uktvnow.*",
+	"@any",
+     ".*{basename}$$*({extension|text_to_number()}).*"
+     ],
+    "action"    : "PLAY"
+	},
+	{
+	"link": "plugin://plugin.video.dnatv",
+    "steps": [
+	".*live tv.*",
+	".*uktvnow.*",
+	"@any",
+     ".*{basename}$$*({extension|number_to_text()}).*"
+     ],
+    "action"    : "PLAY"
+   }  
+  ]
+ ]
+}

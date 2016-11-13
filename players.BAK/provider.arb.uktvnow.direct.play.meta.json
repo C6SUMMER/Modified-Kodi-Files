@@ -1,0 +1,22 @@
+{
+    "name": "UKTV NOW (arb)",
+    "plugin": "plugin.video.uktvnow",
+    "priority": 400,
+    "id": "provider.arb.uktvnow.direct.play",
+    "filters": {},
+    "postprocess": "",
+    "movies": [],
+    "tvshows": [],
+    "live": [
+        [
+            {
+                "link": "plugin://plugin.video.uktvnow",
+                "steps": [
+                 "@any",
+                 ".*{basename}$$*({extension|text_to_number()}).*"
+                ],
+                "action": "PLAY"
+            }
+        ]
+    ]
+}

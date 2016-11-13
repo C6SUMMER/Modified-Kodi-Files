@@ -1,0 +1,19 @@
+{
+ "name"         : "Exodus Browse Season",
+ "plugin"       : "plugin.video.exodus",
+ "priority"     : 501,
+ "id"           : "provider.exodus.browse.season",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.exodus/?action=episodes&imdb={imdb}&season={season}&tvdb={id}&tvshowtitle={clearname}&year={year}",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "live"         : []
+}
